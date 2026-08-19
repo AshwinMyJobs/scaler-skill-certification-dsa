@@ -1,11 +1,11 @@
-package tct1.linearstructure.twopointers;
+package tct1.linearstructure.p5.twopointers;
 
 /**
  * Problem: Container With Most Water (LeetCode 11)
  * Time Complexity: O(N) - Linear single pass with two pointers.
  * Space Complexity: O(1) - Constant auxiliary space.
  */
-public class ContainerWithMostWater {
+public class S2_ContainerWithMostWater {
 
     public int maxArea(int[] height) {
         // Edge case safety check

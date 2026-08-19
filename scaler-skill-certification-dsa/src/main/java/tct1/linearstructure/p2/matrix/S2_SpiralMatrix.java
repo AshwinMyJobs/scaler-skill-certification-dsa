@@ -1,14 +1,33 @@
-package tct1.linearstructure.matrix;
+package tct1.linearstructure.p2.matrix;
 
 import java.util.ArrayList;
 import java.util.List;
+
+/**
+ * PROBLEM STATEMENT: SPIRAL MATRIX
+ *
+ * Given an m x n matrix, return all elements of the matrix in spiral order.
+ *
+ * Input: matrix = [
+ *,
+ *,
+ *   [7, 8, 9]
+ * ]
+ * Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+ *
+ * Constraints:
+ * - m == matrix.length
+ * - n == matrix[i].length
+ * - 1 <= m, n <= 10
+ * - -100 <= matrix[i][j] <= 100
+ */
 
 /**
  * Problem: Spiral Matrix (LeetCode 54)
  * Time Complexity: O(M * N) - Every element is visited exactly once.
  * Space Complexity: O(1) - Auxiliary space (excluding the output list).
  */
-public class SpiralMatrix {
+public class S2_SpiralMatrix {
 
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();

@@ -1,4 +1,4 @@
-package tct1.linearstructure.appliedmath;
+package tct1.linearstructure.p4.appliedmath;
 
 /**
  * Problem: Trailing Zeroes in Factorial (LeetCode 172)

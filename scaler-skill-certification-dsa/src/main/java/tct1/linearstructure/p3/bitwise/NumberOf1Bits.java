@@ -1,4 +1,4 @@
-package tct1.linearstructure.bitwise;
+package tct1.linearstructure.p3.bitwise;
 
 /**
  * Problem: Number of 1 Bits (LeetCode 191)

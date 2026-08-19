@@ -1,4 +1,4 @@
-package tct1.linearstructure.appliedmath;
+package tct1.linearstructure.p4.appliedmath;
 
 /**
  * Problem: Excel Sheet Column Number (LeetCode 171)
