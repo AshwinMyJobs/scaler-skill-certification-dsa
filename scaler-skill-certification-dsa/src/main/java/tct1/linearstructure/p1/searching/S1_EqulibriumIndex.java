@@ -39,8 +39,8 @@ public class S1_EqulibriumIndex {
             totalSum += intArray[i];
         }
 
-        int leftSum = intArray[0];
-        int righSum = totalSum;
+        int leftSum = 0;
+        int righSum = 0;
 
         for (int i = 0; i < intArray.length; i++) {
             leftSum = intArray[i];
