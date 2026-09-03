@@ -43,7 +43,7 @@ import java.util.HashSet;
  * Time Complexity:  O(N) - Each character is visited at most twice (once by right, once by left).
  * Space Complexity: O(W) - Where W is the size of the character set (at most O(1) auxiliary space if bounded).
  */
-public class S2_LongestSubstring {
+public class S2_LongestSubstringWithOutRepeatingCharecter {
     public int lengthOfLongestSubstring(String s) {
         // Edge case: empty string
         if (s == null || s.length() == 0) {

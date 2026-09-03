@@ -42,7 +42,7 @@ package tct1.nonlinearstructure;
  * Time Complexity:  O(N) - Single pass traversal through the array.
  * Space Complexity: O(1) - Uses constant auxiliary memory space.
  */
-public class S1_MaxSumSubarray {
+public class S1_MaxSumSubarrayWithSizeK {
     public int maxSubarraySum(int[] A, int k) {
         // Edge case: If array size is smaller than window size or invalid k
         if (A == null || A.length < k || k <= 0) {
